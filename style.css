@@ -177,4 +177,20 @@ header{
     margin:0.5rem 0 1.1rem;
 }
 
+.heading{
+   text-align: center; 
+
+}
+.heading h2{
+    font-size: 1.8rem;
+    text-transform:uppercase;
+
+}
+.product-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,auto));
+    gap:1.5rem;
+    margin: top 2rem;
+}
+
 
