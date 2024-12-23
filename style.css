@@ -58,7 +58,7 @@ header{
     color: var(--bg-color);
     font-size: 1rem;
     text-transform: uppercase;
-    font: weight 500; 
+    font-weight: 500; 
 }
 
 .navbar a:hover{
