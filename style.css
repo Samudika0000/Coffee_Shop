@@ -286,3 +286,48 @@ header{
 
 
 } 
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:1.5rem;
+
+}
+.footer-box h3{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+} 
+.footer-box p{
+    font-size: 0.938rem;
+    margin-bottom: 10px;
+
+}
+.social{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+
+}
+/*.social a .bx:hover{
+    background: var(--main-color);
+    color:var(--bg-color);
+}*/
+
+.footer-box li a{
+    color: var(--text-color);
+
+
+}
+.footer-box li a:hover{
+    color: var(--main-color);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+
+}
+
+
+
