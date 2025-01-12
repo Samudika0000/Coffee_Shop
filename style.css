@@ -20,6 +20,7 @@
 
 section{
     padding: 50px 100;
+  
 }
 
 img{
@@ -161,7 +162,7 @@ header{
 
 .about{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
+    grid-template-columns: repeat(auto-fit,minmax(0.8rem,auto));
     gap: 1.5rem;
 }
 .about-img img{
@@ -328,6 +329,21 @@ header{
     row-gap: 0.5rem;
 
 }
+@media(max-width : 1050px){
+    header{
+        padding:16px 60px;
+    }
+    section{
+        padding: 50px 60px;
+    }
+    .home-text h1{
+        font-size: 2.4rem;
+        
+    }
+}
+  
+
+    
 
 
 
